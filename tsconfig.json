@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // 1. Where to find TypeScript files (.ts)
+    "rootDir": "./src", 
+    
+    // 2. Where to put compiled JavaScript files (.js)
+    "outDir": "./dist",   
+    
+    // 3. Recommended for modern projects
+    "target": "ES2020",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
