@@ -1,8 +1,8 @@
-const SHIPPING_TYPES = {
+const SHIPPING_TYPES = Object.freeze({
     STANDARD: 'standard',
     EXPRESS: 'express',
     OVERNIGHT: 'overnight',
-}
+});
 
 export function calculateShippingCost(weight: number, type: string): number {
     let costPerKg: number;
