@@ -4,6 +4,8 @@ const SHIPPING_TYPES = Object.freeze({
     OVERNIGHT: 'overnight',
 });
 
+export const test = "test";
+
 export function calculateShippingCost(weight: number, type: string): number {
     let costPerKg: number;
     switch (type) {
